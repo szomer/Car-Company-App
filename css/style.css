@@ -1,0 +1,85 @@
+body {
+  padding-top: 45px;
+}
+
+/* orange buttons */
+.btn-info {
+  border: 1px solid #a94e16;
+  background-color: #ff7824;
+  color: white;
+}
+.btn-info:hover {
+  background-color: #ff9a5c;
+  border: 1px solid #a94e16;
+}
+
+/* scroll behaviour */
+#about,
+#work,
+#services,
+#contact {
+  scroll-margin-top: 70px;
+}
+
+/* navigation */
+#menu .nav-link {
+  color: #262626;
+}
+#menu .nav-link:hover {
+  color: #262626;
+}
+#menu .nav-link.active {
+  color: #ff6200;
+}
+
+/* carousel/slider */
+.carousel,
+.carousel-item {
+  max-height: 40rem !important;
+}
+.carousel-item img {
+  height: 40rem;
+  object-fit: cover;
+}
+@media only screen and (max-width: 767px) {
+  .carousel,
+  .carousel-item {
+    max-height: 30rem !important;
+  }
+  .carousel-item img {
+    height: 30rem;
+  }
+}
+
+/* about section */
+#img_about {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* work section */
+#work {
+  padding: 20px 0px;
+}
+
+/* contact section */
+#contact {
+  margin-top: 30px;
+  background-image: url('/img/map.jpg');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+#contact .card {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* footer */
+footer ul a {
+  color: #262626;
+  text-decoration: none;
+}
+footer ul a:hover {
+  color: #ff7824;
+  text-decoration: none;
+}

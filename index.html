@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech</title>
+
+    <!--fav icon-->
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico" />
+
+    <!--bootstrap style sheet-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#menu">
+    <!--NAVIGATION BAR-->
+    <nav
+      id="menu"
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top"
+    >
+      <div class="container">
+        <!--logo-->
+        <a class="navbar-brand" href=""
+          ><img src="img/logo.png" alt="" height="45px"
+        /></a>
+
+        <!--responsive menu botton for mobile-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menulinks"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--menu links-->
+        <div id="menulinks" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li><a class="nav-link active" href="#slider">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#work">Work</a></li>
+            <!--dropdown menu-->
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                >Projects</a
+              >
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="">Atque maxime</a></li>
+                <li><a class="dropdown-item" href="">Cupiditate</a></li>
+                <li><a class="dropdown-item" href="">Hic sequi dolores</a></li>
+                <li><a class="dropdown-item" href="">Nemo incidunt</a></li>
+              </ul>
+            </li>
+
+            <li><a class="nav-link" href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--CAROUSEL-->
+    <section>
+      <div
+        id="slider"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-touch="true"
+      >
+        <div class="carousel-inner">
+          <!-- carousel items -->
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img class="d-block w-100" src="img/banner1.jpg" alt="" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img class="d-block w-100" src="img/banner2.jpg" alt="" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img class="d-block w-100" src="img/banner3.jpg" alt="" />
+          </div>
+        </div>
+
+        <!-- carousel controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <!-- carousel indicators -->
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="0"
+          ></button>
+          <button
+            class=""
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            class=""
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+      </div>
+    </section>
+
+    <!--ABOUT US-->
+    <section>
+      <div id="about" class="m-4">
+        <div class="container">
+          <div class="row justify-content-center">
+            <!--about us text-->
+            <div class="col-md-6 align-self-center">
+              <h2>About Us</h2>
+              <h5>What do we do?</h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
+                molestiae quam repellat impedit eum. Delectus, quidem! Placeat
+                fugit iusto, eos aliquam, dignissimos omnis libero fuga minus
+                deleniti provident perspiciatis adipisci odit? Libero tempore
+                fuga voluptates quasi? Consequatur, distinctio at doloremque
+                quam culpa natus sint esse vitae, eum dignissimos temporibus
+                quae impedit explicabo perspiciatis? Doloremque, tempore!
+                Blanditiis, enim repellendus rerum eaque ut porro consectetur
+                tempora alias laborum nostrum odit quos modi eum exercitationem
+                nisi veritatis debitis omnis, animi numquam. Beatae numquam
+                ipsum delectus ipsam, aliquid animi debitis unde voluptates,
+                ducimus, illum maxime. Atque maxime, sequi nostrum dolore quam
+                eos porro quasi deserunt minima iusto qui inventore alias. Hic
+                sequi dolores doloribus voluptas quis.
+              </p>
+              <a class="btn btn-info mb-4" href="">Learn More</a>
+            </div>
+            <!--about us image-->
+            <div class="col-md-6 col-lg-5 align-self-center">
+              <img id="img_about" class="rounded" src="img/about.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!--WORK-->
+    <section>
+      <div id="work">
+        <div class="container">
+          <div class="row mb-3">
+            <div class="offset-md-2 col-md-8 text-center">
+              <!--text section-->
+              <h2>How we work</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                nulla!
+              </p>
+            </div>
+            <!--cards-->
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="img/card.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Cupiditate</h4>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate voluptatum, ducimus fugiat ipsa amet sint.
+                  </p>
+                  <a class="btn btn-info" href="">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="img/card2.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Lorem, ipsum</h4>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate voluptatum, ducimus fugiat ipsa amet sint.
+                  </p>
+                  <a class="btn btn-info" href="">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="img/card3.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Atque maxime</h4>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate voluptatum, ducimus fugiat ipsa amet sint.
+                  </p>
+                  <a class="btn btn-info" href="">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT US-->
+    <section>
+      <div id="contact">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-8">
+              <div class="card p-3 my-4 text-center">
+                <!--text section-->
+                <h2>Contact Us</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
+                  aliquid quos labore nemo incidunt expedita.
+                </p>
+
+                <!--form-->
+                <form class="p-3 text-start" action="">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input
+                      type="name"
+                      name=""
+                      id=""
+                      class="form-control"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input
+                      type="email"
+                      name=""
+                      id=""
+                      class="form-control"
+                      placeholder="email@email.com"
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="phone" class="form-label"
+                      >Your Phone Number</label
+                    >
+                    <input
+                      type="phone"
+                      name=""
+                      id=""
+                      class="form-control"
+                      placeholder="xxx xxx xxx"
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea
+                      name=""
+                      id=""
+                      class="form-control"
+                      cols="20"
+                      rows="4"
+                      placeholder="Enter your message"
+                    ></textarea>
+                  </div>
+                  <button class="btn btn-info">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <!--FOOTER-->
+  <footer>
+    <div class="container pt-5 pb-2">
+      <div class="row">
+        <!--company details-->
+        <div class="col-md-3">
+          <img class="text-center" src="img/logo.png" height="40px" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nemo
+            fuga quod atque repudiandae.
+          </p>
+        </div>
+
+        <!--products-->
+        <div class="col-md-3">
+          <h3>Products</h3>
+          <ul class="list-unstyled">
+            <li><a href="mb-2">Atque maxime</a></li>
+            <li><a href="mb-2">Cupiditate</a></li>
+            <li><a href="mb-2">Hic sequi dolores</a></li>
+            <li><a href="mb-2">Nemo incidunt</a></li>
+          </ul>
+        </div>
+
+        <!--site map-->
+        <div class="col-md-3">
+          <h3>Site Map</h3>
+          <ul class="list-unstyled">
+            <li><a href="mb-2">Atque maxime</a></li>
+            <li><a href="mb-2">Cupiditate</a></li>
+            <li><a href="mb-2">Hic sequi dolores</a></li>
+            <li><a href="mb-2">Nemo incidunt </a></li>
+          </ul>
+        </div>
+        <!--search bar-->
+        <div class="col-md-3">
+          <h3>Search</h3>
+          <form action="">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Start searching..."
+              />
+              <button class="btn btn-info">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!--copyrights-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p><small>&#169; TechLOGO | All rights reserved</small></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--popper: used for the dropdown menu-->
+  <script src="js/popper.js"></script>
+  <!--bootstrap js-->
+  <script src="js/bootstrap.min.js"></script>
+</html>
