@@ -1,11 +1,8 @@
 # Car Company App
 
-13 Feburary 2023
-
-The purpose of developing this application is to improve my knowledge and practise on Bootstrap.
+The purpose of developing this application is to improve my knowledge on Bootstrap.
 
 - CSS framework: [Bootstrap 5](https://getbootstrap.com/)
-- JS positioning engine: [PopperJS](https://popper.js.org/)
 - Royalty free images: [Pexels](https://www.pexels.com/)
 
 ---
