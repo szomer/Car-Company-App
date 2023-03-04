@@ -1,6 +1,6 @@
 # Car Company App
 
-The purpose of developing this application is to improve my knowledge on Bootstrap.
+The purpose of developing this [application](https://szomer.github.io/Car-Company-Frontend/) is to improve my knowledge on Bootstrap.
 
 - CSS framework: [Bootstrap 5](https://getbootstrap.com/)
 - Royalty free images: [Pexels](https://www.pexels.com/)
